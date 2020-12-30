@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking = "false" reloadable = "true" privileged = "false">
+  <Valve className="org.apache.catalina.valves.AccessLogValve" 
+    directory="logs"  
+    prefix="localhost_access_log." suffix=".txt" pattern="common" 
+    resolveHosts="false"/>
+
+  <ResourceLink name = "contactsTableCaption" global = "contactsCaption" 
+                type = "java.lang.String"/>
+  <ResourceLink name = "jdbc/swengsolDB" global = "jdbc/swengsolDB" 
+                type = "javax.sql.DataSource"/>
+</Context>
+

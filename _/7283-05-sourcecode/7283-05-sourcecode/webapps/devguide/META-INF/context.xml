@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking = "false" reloadable = "true" privileged = "false">
+  <ResourceLink name = "contactsTableCaption" global = "contactsCaption" 
+                type = "java.lang.String"/>
+  <ResourceLink name = "jdbc/swengsolDB" global = "jdbc/swengsolDB" 
+                type = "javax.sql.DataSource"/>
+</Context>
+
